@@ -167,7 +167,8 @@ Media Queeise
 
 
 @media only screen and (min-width:688px) and (max-width:992px) {
-    .players .top-content {
+    .players {
+        width: 90%;
         grid-template-columns: repeat(2, 1fr);
     }
     
